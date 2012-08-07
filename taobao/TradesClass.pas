@@ -96,6 +96,14 @@ type
     constructor Create(); override;
   end;
 
+  /// <summary>
+  /// ÎïÁ÷²éÑ¯
+  /// </summary>
+  TAreasGet = Class(TBaseTrade)
+  public
+    constructor Create(); override;
+  end;
+
 implementation
 
 uses
@@ -259,6 +267,15 @@ begin
   inherited;
   AddParam('method', 'taobao.shop.get');
   AddParam('fields', 'sid,cid,title,nick,desc,bulletin,pic_path,created,modified');
+end;
+
+{ TAreasGet }
+
+constructor TAreasGet.Create;
+begin
+  inherited;
+  AddParam('method', 'taobao.areas.get');
+  AddParam('fields', 'id,type,name');
 end;
 
 end.

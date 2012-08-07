@@ -31,10 +31,10 @@ uses xmlTrans;
 
 procedure TForm4.Button1Click(Sender: TObject);
 var
-  aTrade : TShop;
+  aTrade : TAreasGet;
   aStream: TStream;
 begin
-  aTrade := TShop.Create;
+  aTrade := TAreasGet.Create;
   IniBaseTrade(aTrade);
   aStream := getXml(aTrade.URL);
   Memo1.Lines.LoadFromStream(aStream, TUTF8Encoding.Create);
