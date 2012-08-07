@@ -43,6 +43,16 @@ type
   End;
 
   /// <summary>
+  /// 获取店铺信息
+  /// </summary>
+  TShop = Class(TBaseTrade)
+  private
+    property Method : string write SetMethod;
+  public
+    constructor Create(); override;
+  End;
+
+  /// <summary>
   /// 交易订单帐务查询
   /// </summary>
   TAmount = Class(TBaseTrade)
@@ -240,6 +250,15 @@ constructor TServerTime.Create;
 begin
   inherited;
   AddParam('method', 'taobao.time.get');
+end;
+
+{ TShop }
+
+constructor TShop.Create;
+begin
+  inherited;
+  AddParam('method', 'taobao.shop.get');
+  AddParam('fields', 'sid,cid,title,nick,desc,bulletin,pic_path,created,modified');
 end;
 
 end.
