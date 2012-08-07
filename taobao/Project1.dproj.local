@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.970,=C:\Users\yeqj\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.906,=C:\Users\yeqj\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2012-08-06 16:57:48.294,=C:\Users\yeqj\Documents\RAD Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2012-08-06 16:58:08.802,C:\Users\yeqj\Documents\delphi测试\taobao\Unit4.pas=C:\Users\yeqj\Documents\RAD Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2012-08-06 16:58:08.802,C:\Users\yeqj\Documents\delphi测试\taobao\Unit4.dfm=C:\Users\yeqj\Documents\RAD Studio\Projects\Unit4.dfm</Transaction>
+    <Transaction>2012-08-06 16:58:10.920,C:\Users\yeqj\Documents\delphi测试\taobao\Project1.dproj=C:\Users\yeqj\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2012-08-06 16:58:54.235,=C:\Users\yeqj\Documents\delphi测试\taobao\TradesClass.pas</Transaction>
+    <Transaction>2012-08-06 16:58:54.312,=C:\Users\yeqj\Documents\delphi测试\taobao\xmlTrans.pas</Transaction>
+  </Transactions>
+</BorlandProject>
